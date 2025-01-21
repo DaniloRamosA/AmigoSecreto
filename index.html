@@ -1,0 +1,32 @@
+<!-- Autor Danilo Ramos A --> 
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amigo Secreto</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Amigo Secreto Oracle Next Education</h1>
+    <p>Ingresa los nombres de los participantes y presiona "Generar Amigos Secretos".</p>
+    <input type="text" id="participantName" placeholder="Nombre del participante" />
+    <button id="addParticipant">Añadir Participante</button>
+
+    <div id="participantsList">
+      <h2>Participantes:</h2>
+      <ul id="list"></ul>
+    </div>
+
+    <button id="generateSecretFriends" disabled>Generar Amigos Secretos</button>
+    
+    <div id="result" class="result">
+      <h2>Resultados</h2>
+      <ul id="resultList"></ul>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

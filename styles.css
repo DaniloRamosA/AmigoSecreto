@@ -1,0 +1,73 @@
+/* Danilo Ramos A */ 
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    text-align: center;
+    width: 80%;
+    max-width: 600px;
+  }
+  
+  input {
+    padding: 10px;
+    margin: 10px;
+    width: 70%;
+    max-width: 300px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  #participantsList {
+    margin-top: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    padding: 5px;
+    background-color: #e2e2e2;
+    margin: 5px;
+    border-radius: 5px;
+  }
+  
+  .result {
+    margin-top: 30px;
+    display: none;
+  }
+  
+  .result ul {
+    padding: 0;
+  }
+  
+  .result li {
+    background-color: #dff0d8;
+    margin: 5px;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
